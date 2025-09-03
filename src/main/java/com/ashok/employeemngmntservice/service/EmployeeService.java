@@ -12,6 +12,16 @@ import org.springframework.stereotype.Service;
 import com.ashok.employeemngmntservice.model.Employee;
 @Service
 public class EmployeeService {
+	/*
+	 * You can create objects in this way also using arraylist:
+	 * 
+	 * List<MobileModel> mobileModel = new ArrayList<>(); mobileModel.add(new
+	 * MobileModel(1, "a12pro", "apple", 34567, 10)); mobileModel.add(new
+	 * MobileModel(2, "13", "apple", 34567, 10)); mobileModel.add(new MobileModel(3,
+	 * "14pro", "apple", 34567, 10)); mobileModel.add(new MobileModel(4, "11pro",
+	 * "apple", 34567, 10)); mobileModel.add(new MobileModel(5, "15pro", "apple",
+	 * 34567, 10));
+	 */
 	 private List<Employee> employees = Arrays.asList(
 		        new Employee(101, "Ashok", "IT", 70000, 28),
 		        new Employee(102, "Neha", "HR", 50000, 22),
