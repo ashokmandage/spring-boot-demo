@@ -1,5 +1,5 @@
 package com.ashok.employeemngmntservice.model;
-
+//Model or POJO
 public class Employee {
 	 private int id;
 	    private String name;
